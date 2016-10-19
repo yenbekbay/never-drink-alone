@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Never Drink Alone - Admin Panel</title>
+  <link href="https://lh3.googleusercontent.com/bGf8QS624M3a0YMwISKDRFmtWwefOWS9JgnUtZBXW1POeYVXurWva5cjiNHhXyX3RscS6QaVfVa5u90WSX8Dh8u8o4nHVA" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/admin.css">
+</head>
+
+<body class="application">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8 col-md-offset-2">
+        <div class="form-wrapper">
+          <div class="form-title">
+          </div>
+          <div class="form-stage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/template" id="login-template">
+    <div class="login">
+      <form class="login-form">
+        <div class="error" style="display:none"></div>
+        <input type="text" id="login-username" placeholder="Username" />
+        <input type="password" id="login-password" placeholder="Password" />
+        <button class="flat-button">Log In</button>
+      </form>
+    </div>
+  </script>
+
+  <script type="text/template" id="matching-template">
+    <div class="content">
+      <ul class="users-list">
+      </ul>
+    </div>
+    <div class="user-info">
+      Signed in as {{ Parse.User.current().escape("username") }} (<a href="#" class="log-out">Log out</a>) | <a href="#" class="testing-mode"></a>
+    </div>
+  </script>
+
+  <script type="text/template" id="selection-template">
+    <ul class="users-list">
+    </ul>
+  </script>
+
+  <script type="text/template" id="user-template">
+    <div class="user-button flat-button">
+      <div class="user-name">{{ firstName }} {{ lastName }}, {{ age }}</div>
+      <div class="user-detail">{{ education }}</div>
+      <div class="user-detail">{{ job }}</div>
+      <div class="user-detail">{{ biography }}</div>
+    </div>
+  </script>
+
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.13.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/underscore.min.js"></script>
+  <script type="text/javascript" src="js/admin.js"></script>
+  <script type="text/javascript" src="js/spin.min.js"></script>
+
+</body>
+</html>

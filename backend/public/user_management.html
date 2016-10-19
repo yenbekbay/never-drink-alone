@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru-KZ">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type='text/css'>
+    .chromeless {
+      width: 100%;
+      height: 100%;
+      left: 0px;
+      top: 0px;
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
+    }
+    .scrollable {
+      overflow: auto;
+    }
+    .noscroll {
+      overflow: hidden;
+    }
+    h1, p {
+      padding: 15px;
+      color: #0067AB;
+      font: inherit;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+  </style>
+  <script language='javascript' type='text/javascript'><!--
+
+    window.onload = function() {
+      // When there are query strings, this page is being used to pass content onto parse. Create
+      // the iframe to do so. Forwards relevant query parameters onto the iFrame.
+      if (window.location.search) {
+        var urlParams = {};
+        (function () {
+            var pair, // Really a match. Index 0 is the full match; 1 & 2 are the key & val.
+                tokenize = /([^&=]+)=?([^&]*)/g,
+                // decodeURIComponents escapes everything but will leave +s that should be ' '
+                re_space = function (s) { return decodeURIComponent(s.replace(/\+/g, " ")); },
+                // Substring to cut off the leading '?'
+                querystring = window.location.search.substring(1);
+
+            while (pair = tokenize.exec(querystring))
+               urlParams[re_space(pair[1])] = re_space(pair[2]);
+        })();
+
+        var base = 'https://www.parse.com';
+        var link = '';
+        var query = '';
+        for (param in urlParams) {
+          if (param == 'link') {
+            link = urlParams['link'];
+          } else {
+            if (query != '') {
+              query += "&";
+            }
+            query += param + '=' + encodeURIComponent(urlParams[param]);
+          }
+        }
+
+        // Ensure there's a leading slash to avoid open redirect
+        if (link.charAt(0) !== "/") {
+          link = "/" + link;
+        }
+
+        var iframe = document.createElement('iframe');
+        iframe.setAttribute('src', base + link + '?' + query);
+        iframe.setAttribute('class', 'chromeless scrollable');
+        document.getElementById('content').appendChild(iframe);
+      }
+    }
+    //-->
+  </script>
+</head>
+<body class='chromeless noscroll'>
+  <noscript>Извините, но для работы этой страницы требуется Javascript</noscript>
+  <div id='content' class='chromeless noscroll'></div>
+</body>
+</html>

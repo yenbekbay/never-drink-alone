@@ -1,0 +1,17 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Never Drink Alone": {
+      "applicationId": "REPLACE_ME",
+      "masterKey": "REPLACE_ME"
+    },
+    "_default": {
+      "link": "Never Drink Alone"
+    },
+    "nea-server": {
+      "link": "Never Drink Alone"
+    }
+  }
+}

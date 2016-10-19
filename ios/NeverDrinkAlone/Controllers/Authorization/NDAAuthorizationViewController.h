@@ -1,0 +1,3 @@
+@interface NDAAuthorizationViewController : UIViewController
+
+@end

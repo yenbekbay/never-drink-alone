@@ -1,0 +1,3 @@
+@interface NDAPermissionsViewController : UIViewController
+
+@end

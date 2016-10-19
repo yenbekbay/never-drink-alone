@@ -1,0 +1,1369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20013D101B32C69300813BA3 /* NDAPreferencesObjectsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 20013D0F1B32C69300813BA3 /* NDAPreferencesObjectsList.m */; };
+		2008AE491BE31AC00012DC3F /* NDANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2008AE481BE31AC00012DC3F /* NDANavigationController.m */; };
+		2012629A1B4930DE00049DC8 /* NDALogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201262991B4930DE00049DC8 /* NDALogInViewController.m */; };
+		2012629F1B49666700049DC8 /* NDADashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2012629E1B49666700049DC8 /* NDADashboardViewController.m */; };
+		20272BE51BDB346100EB81C0 /* NDAKarmaCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20272BE41BDB346100EB81C0 /* NDAKarmaCard.m */; };
+		20272BE81BDB37AE00EB81C0 /* NDACountdownCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20272BE71BDB37AE00EB81C0 /* NDACountdownCard.m */; };
+		20272BEB1BDB3A8C00EB81C0 /* NDAMeetingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 20272BEA1BDB3A8C00EB81C0 /* NDAMeetingCard.m */; };
+		20295F681BFA79C6004EF948 /* CLLocation+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295F671BFA79C6004EF948 /* CLLocation+NDAHelpers.m */; };
+		20295F6B1BFA8583004EF948 /* NDASettingsMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295F6A1BFA8583004EF948 /* NDASettingsMenuView.m */; };
+		20295F6E1BFA858B004EF948 /* NDASettingsMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295F6D1BFA858B004EF948 /* NDASettingsMenuViewCell.m */; };
+		20295F711BFA8C34004EF948 /* NDASettingsViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295F701BFA8C34004EF948 /* NDASettingsViewButton.m */; };
+		20295F761BFABCF6004EF948 /* NDAEditBiographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295F751BFABCF6004EF948 /* NDAEditBiographyViewController.m */; };
+		2029DED01B5BE21C0046787F /* NDAAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029DECF1B5BE21C0046787F /* NDAAlertManager.m */; };
+		202AF04E1BDC1B0800F1124C /* NDAMeetingGoalPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 202AF04D1BDC1B0800F1124C /* NDAMeetingGoalPopup.m */; };
+		203683A41B52A832001FD420 /* NDAFirstProfileConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203683A31B52A832001FD420 /* NDAFirstProfileConfigurationViewController.m */; };
+		2036B7881B5A5A01002755DE /* JTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2036B7871B5A5A01002755DE /* JTProgressHUD.m */; };
+		2036B78F1B5A5C65002755DE /* NDAActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2036B78D1B5A5C65002755DE /* NDAActionSheet.m */; };
+		203CF5761B3AAB09008ED52A /* NDALoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203CF5751B3AAB09008ED52A /* NDALoadingImageView.m */; };
+		2047BA9F1B4EF28C002D8155 /* NDAPreferencesObjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BA9E1B4EF28C002D8155 /* NDAPreferencesObjectCell.m */; };
+		2047BAA21B4EF29F002D8155 /* NDAAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAA11B4EF29F002D8155 /* NDAAuthorizationViewController.m */; };
+		2047BABC1B4EF2BC002D8155 /* NDAFreeTimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAA61B4EF2BC002D8155 /* NDAFreeTimesViewController.m */; };
+		2047BABD1B4EF2BC002D8155 /* NDATimeSlotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAA81B4EF2BC002D8155 /* NDATimeSlotCell.m */; };
+		2047BABE1B4EF2BC002D8155 /* NDAWeekdayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAAA1B4EF2BC002D8155 /* NDAWeekdayPickerCell.m */; };
+		2047BABF1B4EF2BC002D8155 /* NDAInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAAD1B4EF2BC002D8155 /* NDAInterestsViewController.m */; };
+		2047BAC01B4EF2BC002D8155 /* NDAInterestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAAF1B4EF2BC002D8155 /* NDAInterestCell.m */; };
+		2047BAC11B4EF2BC002D8155 /* NDAMeetingPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAB21B4EF2BC002D8155 /* NDAMeetingPlacesViewController.m */; };
+		2047BAC21B4EF2BC002D8155 /* NDAMeetingPlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAB41B4EF2BC002D8155 /* NDAMeetingPlaceCell.m */; };
+		2047BAC31B4EF2BC002D8155 /* NDASearchablePreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAB61B4EF2BC002D8155 /* NDASearchablePreferencesViewController.m */; };
+		2047BAC41B4EF2BC002D8155 /* NDAPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAB81B4EF2BC002D8155 /* NDAPreferencesViewController.m */; };
+		2047BAC51B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BABB1B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.m */; };
+		2047BAC81B4EF2D6002D8155 /* NDAPreferencesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAC71B4EF2D6002D8155 /* NDAPreferencesManager.m */; };
+		2047BACC1B4F7E02002D8155 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BACB1B4F7E02002D8155 /* DAKeyboardControl.m */; };
+		2047BAD41B4F7E09002D8155 /* DZNPhotoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BACF1B4F7E09002D8155 /* DZNPhotoEditorViewController.m */; };
+		2047BAD51B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAD11B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.m */; };
+		2047BAD61B4F7E09002D8155 /* UIImagePickerController+Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BAD31B4F7E09002D8155 /* UIImagePickerController+Edit.m */; };
+		2047BADD1B5117DE002D8155 /* NDAMeetingUserStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047BADC1B5117DE002D8155 /* NDAMeetingUserStatusView.m */; };
+		204815541B47DE0000F0E3FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204815531B47DE0000F0E3FA /* CoreText.framework */; };
+		2055EF071BDC41B100AC613F /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF011BDC41B100AC613F /* OpenSans-Italic.ttf */; };
+		2055EF081BDC41B100AC613F /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF021BDC41B100AC613F /* OpenSans-Light.ttf */; };
+		2055EF091BDC41B100AC613F /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF031BDC41B100AC613F /* OpenSans-LightItalic.ttf */; };
+		2055EF0A1BDC41B100AC613F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF041BDC41B100AC613F /* OpenSans-Regular.ttf */; };
+		2055EF0B1BDC41B100AC613F /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF051BDC41B100AC613F /* OpenSans-Semibold.ttf */; };
+		2055EF0C1BDC41B100AC613F /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2055EF061BDC41B100AC613F /* OpenSans-SemiboldItalic.ttf */; };
+		2055EF101BDC4B6A00AC613F /* CRGradientNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2055EF0F1BDC4B6A00AC613F /* CRGradientNavigationBar.m */; };
+		2063F0D11B4A9AE600C6CD5F /* NDAMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063F0D01B4A9AE600C6CD5F /* NDAMainPageViewController.m */; };
+		2063F0D41B4A9B7200C6CD5F /* NDASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2063F0D31B4A9B7200C6CD5F /* NDASettingsViewController.m */; };
+		20719C111B4E9EDC00B2B526 /* NSDate+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20719C101B4E9EDC00B2B526 /* NSDate+NDAHelpers.m */; };
+		2075C5441BE189ED0047FCC3 /* PFUser+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2075C5431BE189ED0047FCC3 /* PFUser+NDAHelpers.m */; };
+		208571C51B36E2E9004B1AE3 /* NDATimeSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 208571C41B36E2E9004B1AE3 /* NDATimeSlot.m */; };
+		208670271BE284120006B680 /* NDAChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208670261BE284120006B680 /* NDAChatsViewController.m */; };
+		2086702A1BE29F1D0006B680 /* NDAChatsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208670291BE29F1D0006B680 /* NDAChatsViewCell.m */; };
+		20AAD8A61B3457C20060B6AF /* NDAMeetingPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AAD8A51B3457C20060B6AF /* NDAMeetingPlace.m */; };
+		20AAD8AA1B346E2E0060B6AF /* NDALocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AAD8A91B346E2E0060B6AF /* NDALocationManager.m */; };
+		20AAD8B01B3550040060B6AF /* NDAIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AAD8AF1B3550040060B6AF /* NDAIconButton.m */; };
+		20ADE0771BDC2F3600116396 /* NSString+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADE0761BDC2F3600116396 /* NSString+NDAHelpers.m */; };
+		20B060131BB30E0E006FBC65 /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B060121BB30E0E006FBC65 /* UIView+AYUtils.m */; };
+		20BC60131BBED7050010310D /* AYFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BC60121BBED7050010310D /* AYFeedback.m */; };
+		20CA3F471B3EF8FE00CDED92 /* NDAMeetingPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA3F461B3EF8FE00CDED92 /* NDAMeetingPlaceView.m */; };
+		20CC3BF41BE4466900172139 /* NeverDrinkAloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC3BF31BE4466900172139 /* NeverDrinkAloneUITests.m */; };
+		20CC680F1BE1794A00603560 /* NDAChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC680A1BE1794A00603560 /* NDAChatViewController.m */; };
+		20CC68101BE1794A00603560 /* NDAIncomingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC680C1BE1794A00603560 /* NDAIncomingMessage.m */; };
+		20CC68111BE1794A00603560 /* NDAOutcomingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC680E1BE1794A00603560 /* NDAOutcomingMessage.m */; };
+		20D49DF71B43AC7B00DD7839 /* NDAPermissionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D49DF61B43AC7B00DD7839 /* NDAPermissionsViewController.m */; };
+		20D52DF31BE1728200F4F52B /* AYAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D52DF21BE1728200F4F52B /* AYAppStore.m */; };
+		20DAE9091B31223D00E30C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DAE9081B31223D00E30C5D /* Images.xcassets */; };
+		20DAE9151B32745B00E30C5D /* NDAInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DAE9141B32745B00E30C5D /* NDAInterest.m */; };
+		20DBEB651B3E9B430046FB01 /* NDAMeetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DBEB641B3E9B430046FB01 /* NDAMeetingViewController.m */; };
+		20DBEB681B3E9C310046FB01 /* NDAMeetingUserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DBEB671B3E9C310046FB01 /* NDAMeetingUserInfoView.m */; };
+		20E031B61B4807A400E04C5A /* NDAOnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031B31B4807A400E04C5A /* NDAOnboardingContentViewController.m */; };
+		20E031B71B4807A400E04C5A /* NDAOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031B51B4807A400E04C5A /* NDAOnboardingViewController.m */; };
+		20E031BA1B4807E300E04C5A /* UILabel+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031B91B4807E300E04C5A /* UILabel+NDAHelpers.m */; };
+		20E031BD1B4808FC00E04C5A /* NDAWalkthroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031BC1B4808FC00E04C5A /* NDAWalkthroughViewController.m */; };
+		20E031C01B491AD100E04C5A /* NDASignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031BF1B491AD100E04C5A /* NDASignUpViewController.m */; };
+		20E031C31B492B6100E04C5A /* NDAEmailAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E031C21B492B6100E04C5A /* NDAEmailAuthorizationViewController.m */; };
+		20E2930F1B3EA9F2009DEC80 /* NDAProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E2930E1B3EA9F2009DEC80 /* NDAProgressView.m */; };
+		20E293121B3EE601009DEC80 /* NDAMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E293111B3EE601009DEC80 /* NDAMeeting.m */; };
+		20E293151B3EE837009DEC80 /* NDAMeetingDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E293141B3EE837009DEC80 /* NDAMeetingDetailsView.m */; };
+		20E9B6711B578CBA00D3BD7B /* NDAAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E9B66F1B578CBA00D3BD7B /* NDAAlertView.m */; };
+		20E9B6741B578E9D00D3BD7B /* UIWindow+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E9B6731B578E9D00D3BD7B /* UIWindow+NDAHelpers.m */; };
+		20EC02421B4AB05900986D80 /* NDACircularGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC02411B4AB05900986D80 /* NDACircularGauge.m */; };
+		20EC024F1B4C0B4500986D80 /* NDAMeetingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC024E1B4C0B4500986D80 /* NDAMeetingManager.m */; };
+		20EC02521B4C0D1700986D80 /* NDAMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EC02511B4C0D1700986D80 /* NDAMatch.m */; };
+		20F2301D1B463BA000A1D5DE /* NDAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2300D1B463BA000A1D5DE /* NDAConstants.m */; };
+		20F2301F1B463BA000A1D5DE /* UIColor+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F230121B463BA000A1D5DE /* UIColor+NDAHelpers.m */; };
+		20F230201B463BA000A1D5DE /* UIColor+NDATints.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F230141B463BA000A1D5DE /* UIColor+NDATints.m */; };
+		20F230211B463BA000A1D5DE /* UIFont+NDASizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F230161B463BA000A1D5DE /* UIFont+NDASizes.m */; };
+		20F230221B463BA000A1D5DE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F230181B463BA000A1D5DE /* UIImage+ImageEffects.m */; };
+		20F230231B463BA000A1D5DE /* UIImage+NDAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2301A1B463BA000A1D5DE /* UIImage+NDAHelpers.m */; };
+		20F230241B463BA000A1D5DE /* UIImagePickerController+NDABugFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F2301C1B463BA000A1D5DE /* UIImagePickerController+NDABugFix.m */; };
+		20FA242F1B518A9600BBE771 /* NDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA242E1B518A9600BBE771 /* NDAAppDelegate.m */; };
+		20FA24381B51A1FF00BBE771 /* JLLocationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA24321B51A1FF00BBE771 /* JLLocationPermission.m */; };
+		20FA24391B51A1FF00BBE771 /* JLNotificationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA24341B51A1FF00BBE771 /* JLNotificationPermission.m */; };
+		20FA243A1B51A1FF00BBE771 /* JLPermissionsCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FA24371B51A1FF00BBE771 /* JLPermissionsCore.m */; };
+		2DC6E5B81892CE1B9BF9C535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811F6794679799AB56BAE49E /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		34DDD944741923EE0DAE052A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA01ACB9958814E3ED57C8 /* Settings.bundle */; };
+		C964A1D065F3C4D396B9A617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0704055C1C9EDCAA703BB20B /* main.m */; };
+		F37893C9F7C8E57856465B9A /* Pods_NeverDrinkAlone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6A99805F1A72BEA3430CB0 /* Pods_NeverDrinkAlone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CC3BF61BE4466900172139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF7876D1E772AF82AA255E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5FFAFE11182322C80E47F9;
+			remoteInfo = NeverDrinkAlone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0704055C1C9EDCAA703BB20B /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13C4D9D4FF6AF3D15D6EB274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20013D0E1B32C69300813BA3 /* NDAPreferencesObjectsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAPreferencesObjectsList.h; sourceTree = "<group>"; };
+		20013D0F1B32C69300813BA3 /* NDAPreferencesObjectsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAPreferencesObjectsList.m; sourceTree = "<group>"; };
+		2008AE471BE31AC00012DC3F /* NDANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDANavigationController.h; sourceTree = "<group>"; };
+		2008AE481BE31AC00012DC3F /* NDANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDANavigationController.m; sourceTree = "<group>"; };
+		201262981B4930DE00049DC8 /* NDALogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDALogInViewController.h; sourceTree = "<group>"; };
+		201262991B4930DE00049DC8 /* NDALogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDALogInViewController.m; sourceTree = "<group>"; };
+		2012629D1B49666700049DC8 /* NDADashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDADashboardViewController.h; sourceTree = "<group>"; };
+		2012629E1B49666700049DC8 /* NDADashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDADashboardViewController.m; sourceTree = "<group>"; };
+		20272BE31BDB346100EB81C0 /* NDAKarmaCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAKarmaCard.h; sourceTree = "<group>"; };
+		20272BE41BDB346100EB81C0 /* NDAKarmaCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAKarmaCard.m; sourceTree = "<group>"; };
+		20272BE61BDB37AE00EB81C0 /* NDACountdownCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDACountdownCard.h; sourceTree = "<group>"; };
+		20272BE71BDB37AE00EB81C0 /* NDACountdownCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDACountdownCard.m; sourceTree = "<group>"; };
+		20272BE91BDB3A8C00EB81C0 /* NDAMeetingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingCard.h; sourceTree = "<group>"; };
+		20272BEA1BDB3A8C00EB81C0 /* NDAMeetingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingCard.m; sourceTree = "<group>"; };
+		20295F661BFA79C6004EF948 /* CLLocation+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+NDAHelpers.h"; sourceTree = "<group>"; };
+		20295F671BFA79C6004EF948 /* CLLocation+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+NDAHelpers.m"; sourceTree = "<group>"; };
+		20295F691BFA8583004EF948 /* NDASettingsMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASettingsMenuView.h; sourceTree = "<group>"; };
+		20295F6A1BFA8583004EF948 /* NDASettingsMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASettingsMenuView.m; sourceTree = "<group>"; };
+		20295F6C1BFA858B004EF948 /* NDASettingsMenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASettingsMenuViewCell.h; sourceTree = "<group>"; };
+		20295F6D1BFA858B004EF948 /* NDASettingsMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASettingsMenuViewCell.m; sourceTree = "<group>"; };
+		20295F6F1BFA8C34004EF948 /* NDASettingsViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASettingsViewButton.h; sourceTree = "<group>"; };
+		20295F701BFA8C34004EF948 /* NDASettingsViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASettingsViewButton.m; sourceTree = "<group>"; };
+		20295F741BFABCF6004EF948 /* NDAEditBiographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAEditBiographyViewController.h; sourceTree = "<group>"; };
+		20295F751BFABCF6004EF948 /* NDAEditBiographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAEditBiographyViewController.m; sourceTree = "<group>"; };
+		2029DECE1B5BE21C0046787F /* NDAAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAAlertManager.h; sourceTree = "<group>"; };
+		2029DECF1B5BE21C0046787F /* NDAAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAAlertManager.m; sourceTree = "<group>"; };
+		202AF04C1BDC1B0800F1124C /* NDAMeetingGoalPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingGoalPopup.h; sourceTree = "<group>"; };
+		202AF04D1BDC1B0800F1124C /* NDAMeetingGoalPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingGoalPopup.m; sourceTree = "<group>"; };
+		203683A21B52A832001FD420 /* NDAFirstProfileConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAFirstProfileConfigurationViewController.h; sourceTree = "<group>"; };
+		203683A31B52A832001FD420 /* NDAFirstProfileConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAFirstProfileConfigurationViewController.m; sourceTree = "<group>"; };
+		2036B7861B5A5A01002755DE /* JTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTProgressHUD.h; sourceTree = "<group>"; };
+		2036B7871B5A5A01002755DE /* JTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTProgressHUD.m; sourceTree = "<group>"; };
+		2036B78C1B5A5C65002755DE /* NDAActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAActionSheet.h; sourceTree = "<group>"; };
+		2036B78D1B5A5C65002755DE /* NDAActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAActionSheet.m; sourceTree = "<group>"; };
+		203CF5741B3AAB09008ED52A /* NDALoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDALoadingImageView.h; sourceTree = "<group>"; };
+		203CF5751B3AAB09008ED52A /* NDALoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDALoadingImageView.m; sourceTree = "<group>"; };
+		2047BA9D1B4EF28C002D8155 /* NDAPreferencesObjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAPreferencesObjectCell.h; sourceTree = "<group>"; };
+		2047BA9E1B4EF28C002D8155 /* NDAPreferencesObjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAPreferencesObjectCell.m; sourceTree = "<group>"; };
+		2047BAA01B4EF29F002D8155 /* NDAAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAAuthorizationViewController.h; sourceTree = "<group>"; };
+		2047BAA11B4EF29F002D8155 /* NDAAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAAuthorizationViewController.m; sourceTree = "<group>"; };
+		2047BAA51B4EF2BC002D8155 /* NDAFreeTimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAFreeTimesViewController.h; sourceTree = "<group>"; };
+		2047BAA61B4EF2BC002D8155 /* NDAFreeTimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAFreeTimesViewController.m; sourceTree = "<group>"; };
+		2047BAA71B4EF2BC002D8155 /* NDATimeSlotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDATimeSlotCell.h; sourceTree = "<group>"; };
+		2047BAA81B4EF2BC002D8155 /* NDATimeSlotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDATimeSlotCell.m; sourceTree = "<group>"; };
+		2047BAA91B4EF2BC002D8155 /* NDAWeekdayPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAWeekdayPickerCell.h; sourceTree = "<group>"; };
+		2047BAAA1B4EF2BC002D8155 /* NDAWeekdayPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAWeekdayPickerCell.m; sourceTree = "<group>"; };
+		2047BAAC1B4EF2BC002D8155 /* NDAInterestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAInterestsViewController.h; sourceTree = "<group>"; };
+		2047BAAD1B4EF2BC002D8155 /* NDAInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAInterestsViewController.m; sourceTree = "<group>"; };
+		2047BAAE1B4EF2BC002D8155 /* NDAInterestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAInterestCell.h; sourceTree = "<group>"; };
+		2047BAAF1B4EF2BC002D8155 /* NDAInterestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAInterestCell.m; sourceTree = "<group>"; };
+		2047BAB11B4EF2BC002D8155 /* NDAMeetingPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingPlacesViewController.h; sourceTree = "<group>"; };
+		2047BAB21B4EF2BC002D8155 /* NDAMeetingPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingPlacesViewController.m; sourceTree = "<group>"; };
+		2047BAB31B4EF2BC002D8155 /* NDAMeetingPlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingPlaceCell.h; sourceTree = "<group>"; };
+		2047BAB41B4EF2BC002D8155 /* NDAMeetingPlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingPlaceCell.m; sourceTree = "<group>"; };
+		2047BAB51B4EF2BC002D8155 /* NDASearchablePreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDASearchablePreferencesViewController.h; path = "../Adding Preferences/NDASearchablePreferencesViewController.h"; sourceTree = "<group>"; };
+		2047BAB61B4EF2BC002D8155 /* NDASearchablePreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDASearchablePreferencesViewController.m; path = "../Adding Preferences/NDASearchablePreferencesViewController.m"; sourceTree = "<group>"; };
+		2047BAB71B4EF2BC002D8155 /* NDAPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDAPreferencesViewController.h; path = "../Adding Preferences/NDAPreferencesViewController.h"; sourceTree = "<group>"; };
+		2047BAB81B4EF2BC002D8155 /* NDAPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDAPreferencesViewController.m; path = "../Adding Preferences/NDAPreferencesViewController.m"; sourceTree = "<group>"; };
+		2047BABA1B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASecondProfileConfigurationViewController.h; sourceTree = "<group>"; };
+		2047BABB1B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASecondProfileConfigurationViewController.m; sourceTree = "<group>"; };
+		2047BAC61B4EF2D6002D8155 /* NDAPreferencesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAPreferencesManager.h; sourceTree = "<group>"; };
+		2047BAC71B4EF2D6002D8155 /* NDAPreferencesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAPreferencesManager.m; sourceTree = "<group>"; };
+		2047BACA1B4F7E02002D8155 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		2047BACB1B4F7E02002D8155 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		2047BACE1B4F7E09002D8155 /* DZNPhotoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPhotoEditorViewController.h; sourceTree = "<group>"; };
+		2047BACF1B4F7E09002D8155 /* DZNPhotoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPhotoEditorViewController.m; sourceTree = "<group>"; };
+		2047BAD01B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPhotoPickerControllerConstants.h; sourceTree = "<group>"; };
+		2047BAD11B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPhotoPickerControllerConstants.m; sourceTree = "<group>"; };
+		2047BAD21B4F7E09002D8155 /* UIImagePickerController+Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+Edit.h"; sourceTree = "<group>"; };
+		2047BAD31B4F7E09002D8155 /* UIImagePickerController+Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+Edit.m"; sourceTree = "<group>"; };
+		2047BADB1B5117DE002D8155 /* NDAMeetingUserStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingUserStatusView.h; sourceTree = "<group>"; };
+		2047BADC1B5117DE002D8155 /* NDAMeetingUserStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingUserStatusView.m; sourceTree = "<group>"; };
+		204815531B47DE0000F0E3FA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2055EF011BDC41B100AC613F /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		2055EF021BDC41B100AC613F /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		2055EF031BDC41B100AC613F /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2055EF041BDC41B100AC613F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2055EF051BDC41B100AC613F /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		2055EF061BDC41B100AC613F /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		2055EF0E1BDC4B6A00AC613F /* CRGradientNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGradientNavigationBar.h; sourceTree = "<group>"; };
+		2055EF0F1BDC4B6A00AC613F /* CRGradientNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRGradientNavigationBar.m; sourceTree = "<group>"; };
+		2063F0CF1B4A9AE600C6CD5F /* NDAMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMainPageViewController.h; sourceTree = "<group>"; };
+		2063F0D01B4A9AE600C6CD5F /* NDAMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMainPageViewController.m; sourceTree = "<group>"; };
+		2063F0D21B4A9B7200C6CD5F /* NDASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASettingsViewController.h; sourceTree = "<group>"; };
+		2063F0D31B4A9B7200C6CD5F /* NDASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASettingsViewController.m; sourceTree = "<group>"; };
+		20719C0F1B4E9EDC00B2B526 /* NSDate+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NDAHelpers.h"; sourceTree = "<group>"; };
+		20719C101B4E9EDC00B2B526 /* NSDate+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NDAHelpers.m"; sourceTree = "<group>"; };
+		2075C5421BE189ED0047FCC3 /* PFUser+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFUser+NDAHelpers.h"; sourceTree = "<group>"; };
+		2075C5431BE189ED0047FCC3 /* PFUser+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PFUser+NDAHelpers.m"; sourceTree = "<group>"; };
+		208571C31B36E2E9004B1AE3 /* NDATimeSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDATimeSlot.h; sourceTree = "<group>"; };
+		208571C41B36E2E9004B1AE3 /* NDATimeSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDATimeSlot.m; sourceTree = "<group>"; };
+		208670251BE284120006B680 /* NDAChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAChatsViewController.h; sourceTree = "<group>"; };
+		208670261BE284120006B680 /* NDAChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAChatsViewController.m; sourceTree = "<group>"; };
+		208670281BE29F1D0006B680 /* NDAChatsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAChatsViewCell.h; sourceTree = "<group>"; };
+		208670291BE29F1D0006B680 /* NDAChatsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAChatsViewCell.m; sourceTree = "<group>"; };
+		20AAD8A41B3457C20060B6AF /* NDAMeetingPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingPlace.h; sourceTree = "<group>"; };
+		20AAD8A51B3457C20060B6AF /* NDAMeetingPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingPlace.m; sourceTree = "<group>"; };
+		20AAD8A81B346E2E0060B6AF /* NDALocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDALocationManager.h; sourceTree = "<group>"; };
+		20AAD8A91B346E2E0060B6AF /* NDALocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDALocationManager.m; sourceTree = "<group>"; };
+		20AAD8AE1B3550040060B6AF /* NDAIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAIconButton.h; sourceTree = "<group>"; };
+		20AAD8AF1B3550040060B6AF /* NDAIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAIconButton.m; sourceTree = "<group>"; };
+		20AB014F207E6F6200BF4FBC /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		20ADE0751BDC2F3600116396 /* NSString+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NDAHelpers.h"; sourceTree = "<group>"; };
+		20ADE0761BDC2F3600116396 /* NSString+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NDAHelpers.m"; sourceTree = "<group>"; };
+		20B060111BB30E0E006FBC65 /* UIView+AYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYUtils.h"; sourceTree = "<group>"; };
+		20B060121BB30E0E006FBC65 /* UIView+AYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYUtils.m"; sourceTree = "<group>"; };
+		20B4C2CC1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-NeverDrinkAlone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeverDrinkAlone/Pods-NeverDrinkAlone.debug.xcconfig"; sourceTree = "<group>"; };
+		20B4C2CD1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-NeverDrinkAlone.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeverDrinkAlone/Pods-NeverDrinkAlone.release.xcconfig"; sourceTree = "<group>"; };
+		20BC60111BBED7050010310D /* AYFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYFeedback.h; sourceTree = "<group>"; };
+		20BC60121BBED7050010310D /* AYFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYFeedback.m; sourceTree = "<group>"; };
+		20CA3F451B3EF8FE00CDED92 /* NDAMeetingPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingPlaceView.h; sourceTree = "<group>"; };
+		20CA3F461B3EF8FE00CDED92 /* NDAMeetingPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingPlaceView.m; sourceTree = "<group>"; };
+		20CC3BF11BE4466900172139 /* NeverDrinkAloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverDrinkAloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CC3BF31BE4466900172139 /* NeverDrinkAloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverDrinkAloneUITests.m; sourceTree = "<group>"; };
+		20CC3BF51BE4466900172139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CC68091BE1794A00603560 /* NDAChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAChatViewController.h; sourceTree = "<group>"; };
+		20CC680A1BE1794A00603560 /* NDAChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAChatViewController.m; sourceTree = "<group>"; };
+		20CC680B1BE1794A00603560 /* NDAIncomingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAIncomingMessage.h; sourceTree = "<group>"; };
+		20CC680C1BE1794A00603560 /* NDAIncomingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAIncomingMessage.m; sourceTree = "<group>"; };
+		20CC680D1BE1794A00603560 /* NDAOutcomingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAOutcomingMessage.h; sourceTree = "<group>"; };
+		20CC680E1BE1794A00603560 /* NDAOutcomingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAOutcomingMessage.m; sourceTree = "<group>"; };
+		20D49DF51B43AC7B00DD7839 /* NDAPermissionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAPermissionsViewController.h; sourceTree = "<group>"; };
+		20D49DF61B43AC7B00DD7839 /* NDAPermissionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAPermissionsViewController.m; sourceTree = "<group>"; };
+		20D52DF11BE1728200F4F52B /* AYAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAppStore.h; sourceTree = "<group>"; };
+		20D52DF21BE1728200F4F52B /* AYAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYAppStore.m; sourceTree = "<group>"; };
+		20DAE9081B31223D00E30C5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20DAE9131B32745B00E30C5D /* NDAInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAInterest.h; sourceTree = "<group>"; };
+		20DAE9141B32745B00E30C5D /* NDAInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAInterest.m; sourceTree = "<group>"; };
+		20DBEB631B3E9B430046FB01 /* NDAMeetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingViewController.h; sourceTree = "<group>"; };
+		20DBEB641B3E9B430046FB01 /* NDAMeetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingViewController.m; sourceTree = "<group>"; };
+		20DBEB661B3E9C310046FB01 /* NDAMeetingUserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingUserInfoView.h; sourceTree = "<group>"; };
+		20DBEB671B3E9C310046FB01 /* NDAMeetingUserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingUserInfoView.m; sourceTree = "<group>"; };
+		20E031B21B4807A400E04C5A /* NDAOnboardingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAOnboardingContentViewController.h; sourceTree = "<group>"; };
+		20E031B31B4807A400E04C5A /* NDAOnboardingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAOnboardingContentViewController.m; sourceTree = "<group>"; };
+		20E031B41B4807A400E04C5A /* NDAOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAOnboardingViewController.h; sourceTree = "<group>"; };
+		20E031B51B4807A400E04C5A /* NDAOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAOnboardingViewController.m; sourceTree = "<group>"; };
+		20E031B81B4807E300E04C5A /* UILabel+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NDAHelpers.h"; sourceTree = "<group>"; };
+		20E031B91B4807E300E04C5A /* UILabel+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NDAHelpers.m"; sourceTree = "<group>"; };
+		20E031BB1B4808FC00E04C5A /* NDAWalkthroughViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAWalkthroughViewController.h; sourceTree = "<group>"; };
+		20E031BC1B4808FC00E04C5A /* NDAWalkthroughViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAWalkthroughViewController.m; sourceTree = "<group>"; };
+		20E031BE1B491AD100E04C5A /* NDASignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDASignUpViewController.h; sourceTree = "<group>"; };
+		20E031BF1B491AD100E04C5A /* NDASignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDASignUpViewController.m; sourceTree = "<group>"; };
+		20E031C11B492B6100E04C5A /* NDAEmailAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAEmailAuthorizationViewController.h; sourceTree = "<group>"; };
+		20E031C21B492B6100E04C5A /* NDAEmailAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAEmailAuthorizationViewController.m; sourceTree = "<group>"; };
+		20E2930D1B3EA9F2009DEC80 /* NDAProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAProgressView.h; sourceTree = "<group>"; };
+		20E2930E1B3EA9F2009DEC80 /* NDAProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAProgressView.m; sourceTree = "<group>"; };
+		20E293101B3EE601009DEC80 /* NDAMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeeting.h; sourceTree = "<group>"; };
+		20E293111B3EE601009DEC80 /* NDAMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeeting.m; sourceTree = "<group>"; };
+		20E293131B3EE837009DEC80 /* NDAMeetingDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingDetailsView.h; sourceTree = "<group>"; };
+		20E293141B3EE837009DEC80 /* NDAMeetingDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingDetailsView.m; sourceTree = "<group>"; };
+		20E9B66E1B578CBA00D3BD7B /* NDAAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAAlertView.h; sourceTree = "<group>"; };
+		20E9B66F1B578CBA00D3BD7B /* NDAAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAAlertView.m; sourceTree = "<group>"; };
+		20E9B6721B578E9D00D3BD7B /* UIWindow+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NDAHelpers.h"; sourceTree = "<group>"; };
+		20E9B6731B578E9D00D3BD7B /* UIWindow+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NDAHelpers.m"; sourceTree = "<group>"; };
+		20EC02401B4AB05900986D80 /* NDACircularGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDACircularGauge.h; sourceTree = "<group>"; };
+		20EC02411B4AB05900986D80 /* NDACircularGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDACircularGauge.m; sourceTree = "<group>"; };
+		20EC024D1B4C0B4500986D80 /* NDAMeetingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMeetingManager.h; sourceTree = "<group>"; };
+		20EC024E1B4C0B4500986D80 /* NDAMeetingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMeetingManager.m; sourceTree = "<group>"; };
+		20EC02501B4C0D1700986D80 /* NDAMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMatch.h; sourceTree = "<group>"; };
+		20EC02511B4C0D1700986D80 /* NDAMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAMatch.m; sourceTree = "<group>"; };
+		20F2300C1B463BA000A1D5DE /* NDAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAConstants.h; sourceTree = "<group>"; };
+		20F2300D1B463BA000A1D5DE /* NDAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAConstants.m; sourceTree = "<group>"; };
+		20F2300E1B463BA000A1D5DE /* NDAMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAMacros.h; sourceTree = "<group>"; };
+		20F230111B463BA000A1D5DE /* UIColor+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NDAHelpers.h"; sourceTree = "<group>"; };
+		20F230121B463BA000A1D5DE /* UIColor+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NDAHelpers.m"; sourceTree = "<group>"; };
+		20F230131B463BA000A1D5DE /* UIColor+NDATints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NDATints.h"; sourceTree = "<group>"; };
+		20F230141B463BA000A1D5DE /* UIColor+NDATints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NDATints.m"; sourceTree = "<group>"; };
+		20F230151B463BA000A1D5DE /* UIFont+NDASizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NDASizes.h"; sourceTree = "<group>"; };
+		20F230161B463BA000A1D5DE /* UIFont+NDASizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NDASizes.m"; sourceTree = "<group>"; };
+		20F230171B463BA000A1D5DE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		20F230181B463BA000A1D5DE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		20F230191B463BA000A1D5DE /* UIImage+NDAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NDAHelpers.h"; sourceTree = "<group>"; };
+		20F2301A1B463BA000A1D5DE /* UIImage+NDAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NDAHelpers.m"; sourceTree = "<group>"; };
+		20F2301B1B463BA000A1D5DE /* UIImagePickerController+NDABugFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+NDABugFix.h"; sourceTree = "<group>"; };
+		20F2301C1B463BA000A1D5DE /* UIImagePickerController+NDABugFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+NDABugFix.m"; sourceTree = "<group>"; };
+		20FA242D1B518A9600BBE771 /* NDAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAAppDelegate.h; sourceTree = "<group>"; };
+		20FA242E1B518A9600BBE771 /* NDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAAppDelegate.m; sourceTree = "<group>"; };
+		20FA24311B51A1FF00BBE771 /* JLLocationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLocationPermission.h; sourceTree = "<group>"; };
+		20FA24321B51A1FF00BBE771 /* JLLocationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLocationPermission.m; sourceTree = "<group>"; };
+		20FA24331B51A1FF00BBE771 /* JLNotificationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNotificationPermission.h; sourceTree = "<group>"; };
+		20FA24341B51A1FF00BBE771 /* JLNotificationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNotificationPermission.m; sourceTree = "<group>"; };
+		20FA24351B51A1FF00BBE771 /* JLPermissionsCore+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLPermissionsCore+Internal.h"; sourceTree = "<group>"; };
+		20FA24361B51A1FF00BBE771 /* JLPermissionsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPermissionsCore.h; sourceTree = "<group>"; };
+		20FA24371B51A1FF00BBE771 /* JLPermissionsCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPermissionsCore.m; sourceTree = "<group>"; };
+		2A6A99805F1A72BEA3430CB0 /* Pods_NeverDrinkAlone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeverDrinkAlone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA01ACB9958814E3ED57C8 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3EB266F2C0F9AF27B1BEE506 /* NeverDrinkAlone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverDrinkAlone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5240731103D9CEED055E7BF5 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		682AEA1134F426E006C83D63 /* NeverDrinkAlone-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NeverDrinkAlone-Prefix.pch"; sourceTree = "<group>"; };
+		811F6794679799AB56BAE49E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D269E53C9903D1C375F1427 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7701B2F6B461DCD3FFE12B2 /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20CC3BEE1BE4466900172139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CEA4ABCC6B017494EF4B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204815541B47DE0000F0E3FA /* CoreText.framework in Frameworks */,
+				2DC6E5B81892CE1B9BF9C535 /* Foundation.framework in Frameworks */,
+				F37893C9F7C8E57856465B9A /* Pods_NeverDrinkAlone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DCBDCC365B1DAE01F60CD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2055EF001BDC41A900AC613F /* Fonts */,
+				20DAE9081B31223D00E30C5D /* Images.xcassets */,
+				F91D65C29C338C35CBFDAC86 /* Other-Sources */,
+				2FBA01ACB9958814E3ED57C8 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2012629C1B49664C00049DC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				202AF04F1BDC1B1000F1124C /* Dashboard */,
+				20295F721BFA8C3A004EF948 /* Settings */,
+				2063F0CF1B4A9AE600C6CD5F /* NDAMainPageViewController.h */,
+				2063F0D01B4A9AE600C6CD5F /* NDAMainPageViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		20295F721BFA8C3A004EF948 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2063F0D21B4A9B7200C6CD5F /* NDASettingsViewController.h */,
+				2063F0D31B4A9B7200C6CD5F /* NDASettingsViewController.m */,
+				20295F741BFABCF6004EF948 /* NDAEditBiographyViewController.h */,
+				20295F751BFABCF6004EF948 /* NDAEditBiographyViewController.m */,
+				20295F691BFA8583004EF948 /* NDASettingsMenuView.h */,
+				20295F6A1BFA8583004EF948 /* NDASettingsMenuView.m */,
+				20295F6C1BFA858B004EF948 /* NDASettingsMenuViewCell.h */,
+				20295F6D1BFA858B004EF948 /* NDASettingsMenuViewCell.m */,
+				20295F6F1BFA8C34004EF948 /* NDASettingsViewButton.h */,
+				20295F701BFA8C34004EF948 /* NDASettingsViewButton.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		20295F731BFA952F004EF948 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				2047BAAB1B4EF2BC002D8155 /* Adding Interests */,
+				2047BAB01B4EF2BC002D8155 /* Meeting Places */,
+				2047BAA41B4EF2BC002D8155 /* Adding Free Times */,
+				2047BAB51B4EF2BC002D8155 /* NDASearchablePreferencesViewController.h */,
+				2047BAB61B4EF2BC002D8155 /* NDASearchablePreferencesViewController.m */,
+				2047BAB71B4EF2BC002D8155 /* NDAPreferencesViewController.h */,
+				2047BAB81B4EF2BC002D8155 /* NDAPreferencesViewController.m */,
+			);
+			name = Preferences;
+			path = "Profile Configuration";
+			sourceTree = "<group>";
+		};
+		202AF04F1BDC1B1000F1124C /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2012629D1B49666700049DC8 /* NDADashboardViewController.h */,
+				2012629E1B49666700049DC8 /* NDADashboardViewController.m */,
+				20272BE31BDB346100EB81C0 /* NDAKarmaCard.h */,
+				20272BE41BDB346100EB81C0 /* NDAKarmaCard.m */,
+				20272BE61BDB37AE00EB81C0 /* NDACountdownCard.h */,
+				20272BE71BDB37AE00EB81C0 /* NDACountdownCard.m */,
+				20272BE91BDB3A8C00EB81C0 /* NDAMeetingCard.h */,
+				20272BEA1BDB3A8C00EB81C0 /* NDAMeetingCard.m */,
+				202AF04C1BDC1B0800F1124C /* NDAMeetingGoalPopup.h */,
+				202AF04D1BDC1B0800F1124C /* NDAMeetingGoalPopup.m */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		2036B7851B5A5A01002755DE /* JTProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2036B7861B5A5A01002755DE /* JTProgressHUD.h */,
+				2036B7871B5A5A01002755DE /* JTProgressHUD.m */,
+			);
+			path = JTProgressHUD;
+			sourceTree = "<group>";
+		};
+		2047BAA41B4EF2BC002D8155 /* Adding Free Times */ = {
+			isa = PBXGroup;
+			children = (
+				2047BAA51B4EF2BC002D8155 /* NDAFreeTimesViewController.h */,
+				2047BAA61B4EF2BC002D8155 /* NDAFreeTimesViewController.m */,
+				2047BAA71B4EF2BC002D8155 /* NDATimeSlotCell.h */,
+				2047BAA81B4EF2BC002D8155 /* NDATimeSlotCell.m */,
+				2047BAA91B4EF2BC002D8155 /* NDAWeekdayPickerCell.h */,
+				2047BAAA1B4EF2BC002D8155 /* NDAWeekdayPickerCell.m */,
+			);
+			name = "Adding Free Times";
+			path = "../Adding Preferences/Adding Free Times";
+			sourceTree = "<group>";
+		};
+		2047BAAB1B4EF2BC002D8155 /* Adding Interests */ = {
+			isa = PBXGroup;
+			children = (
+				2047BAAC1B4EF2BC002D8155 /* NDAInterestsViewController.h */,
+				2047BAAD1B4EF2BC002D8155 /* NDAInterestsViewController.m */,
+				2047BAAE1B4EF2BC002D8155 /* NDAInterestCell.h */,
+				2047BAAF1B4EF2BC002D8155 /* NDAInterestCell.m */,
+			);
+			name = "Adding Interests";
+			path = "../Adding Preferences/Adding Interests";
+			sourceTree = "<group>";
+		};
+		2047BAB01B4EF2BC002D8155 /* Meeting Places */ = {
+			isa = PBXGroup;
+			children = (
+				2047BAB11B4EF2BC002D8155 /* NDAMeetingPlacesViewController.h */,
+				2047BAB21B4EF2BC002D8155 /* NDAMeetingPlacesViewController.m */,
+				2047BAB31B4EF2BC002D8155 /* NDAMeetingPlaceCell.h */,
+				2047BAB41B4EF2BC002D8155 /* NDAMeetingPlaceCell.m */,
+			);
+			name = "Meeting Places";
+			path = "../Adding Preferences/Adding Meeting Places";
+			sourceTree = "<group>";
+		};
+		2047BAB91B4EF2BC002D8155 /* Profile Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				203683A21B52A832001FD420 /* NDAFirstProfileConfigurationViewController.h */,
+				203683A31B52A832001FD420 /* NDAFirstProfileConfigurationViewController.m */,
+				2047BABA1B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.h */,
+				2047BABB1B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.m */,
+			);
+			path = "Profile Configuration";
+			sourceTree = "<group>";
+		};
+		2047BAC91B4F7E02002D8155 /* DAKeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				2047BACA1B4F7E02002D8155 /* DAKeyboardControl.h */,
+				2047BACB1B4F7E02002D8155 /* DAKeyboardControl.m */,
+			);
+			path = DAKeyboardControl;
+			sourceTree = "<group>";
+		};
+		2047BACD1B4F7E09002D8155 /* DZNPhotoPickerControllerEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2047BACE1B4F7E09002D8155 /* DZNPhotoEditorViewController.h */,
+				2047BACF1B4F7E09002D8155 /* DZNPhotoEditorViewController.m */,
+				2047BAD01B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.h */,
+				2047BAD11B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.m */,
+				2047BAD21B4F7E09002D8155 /* UIImagePickerController+Edit.h */,
+				2047BAD31B4F7E09002D8155 /* UIImagePickerController+Edit.m */,
+			);
+			path = DZNPhotoPickerControllerEditor;
+			sourceTree = "<group>";
+		};
+		2055EF001BDC41A900AC613F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2055EF011BDC41B100AC613F /* OpenSans-Italic.ttf */,
+				2055EF021BDC41B100AC613F /* OpenSans-Light.ttf */,
+				2055EF031BDC41B100AC613F /* OpenSans-LightItalic.ttf */,
+				2055EF041BDC41B100AC613F /* OpenSans-Regular.ttf */,
+				2055EF051BDC41B100AC613F /* OpenSans-Semibold.ttf */,
+				2055EF061BDC41B100AC613F /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2055EF0D1BDC4B6A00AC613F /* CRGradientNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2055EF0E1BDC4B6A00AC613F /* CRGradientNavigationBar.h */,
+				2055EF0F1BDC4B6A00AC613F /* CRGradientNavigationBar.m */,
+			);
+			path = CRGradientNavigationBar;
+			sourceTree = "<group>";
+		};
+		20AAD8A71B346E1B0060B6AF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				20AAD8A81B346E2E0060B6AF /* NDALocationManager.h */,
+				20AAD8A91B346E2E0060B6AF /* NDALocationManager.m */,
+				2047BAC61B4EF2D6002D8155 /* NDAPreferencesManager.h */,
+				2047BAC71B4EF2D6002D8155 /* NDAPreferencesManager.m */,
+				20EC024D1B4C0B4500986D80 /* NDAMeetingManager.h */,
+				20EC024E1B4C0B4500986D80 /* NDAMeetingManager.m */,
+				2029DECE1B5BE21C0046787F /* NDAAlertManager.h */,
+				2029DECF1B5BE21C0046787F /* NDAAlertManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		20CA3F4B1B429A6D00CDED92 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2055EF0D1BDC4B6A00AC613F /* CRGradientNavigationBar */,
+				20FA24301B51A1FF00BBE771 /* JLPermissions */,
+				2047BAC91B4F7E02002D8155 /* DAKeyboardControl */,
+				2047BACD1B4F7E09002D8155 /* DZNPhotoPickerControllerEditor */,
+				2036B7851B5A5A01002755DE /* JTProgressHUD */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		20CC3BF21BE4466900172139 /* NeverDrinkAloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20CC3BF31BE4466900172139 /* NeverDrinkAloneUITests.m */,
+				20CC3BF51BE4466900172139 /* Info.plist */,
+			);
+			path = NeverDrinkAloneUITests;
+			sourceTree = "<group>";
+		};
+		20CC68081BE1792800603560 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				20CC68091BE1794A00603560 /* NDAChatViewController.h */,
+				20CC680A1BE1794A00603560 /* NDAChatViewController.m */,
+				208670251BE284120006B680 /* NDAChatsViewController.h */,
+				208670261BE284120006B680 /* NDAChatsViewController.m */,
+				208670281BE29F1D0006B680 /* NDAChatsViewCell.h */,
+				208670291BE29F1D0006B680 /* NDAChatsViewCell.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		20D49DF01B42C2E300DD7839 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				20D49DF51B43AC7B00DD7839 /* NDAPermissionsViewController.h */,
+				20D49DF61B43AC7B00DD7839 /* NDAPermissionsViewController.m */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		20DBEB371B3E91E10046FB01 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				2047BAA01B4EF29F002D8155 /* NDAAuthorizationViewController.h */,
+				2047BAA11B4EF29F002D8155 /* NDAAuthorizationViewController.m */,
+				20E031BE1B491AD100E04C5A /* NDASignUpViewController.h */,
+				20E031BF1B491AD100E04C5A /* NDASignUpViewController.m */,
+				201262981B4930DE00049DC8 /* NDALogInViewController.h */,
+				201262991B4930DE00049DC8 /* NDALogInViewController.m */,
+				20E031C11B492B6100E04C5A /* NDAEmailAuthorizationViewController.h */,
+				20E031C21B492B6100E04C5A /* NDAEmailAuthorizationViewController.m */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		20DBEB621B3E99950046FB01 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				20DBEB631B3E9B430046FB01 /* NDAMeetingViewController.h */,
+				20DBEB641B3E9B430046FB01 /* NDAMeetingViewController.m */,
+				20DBEB661B3E9C310046FB01 /* NDAMeetingUserInfoView.h */,
+				20DBEB671B3E9C310046FB01 /* NDAMeetingUserInfoView.m */,
+				20E293131B3EE837009DEC80 /* NDAMeetingDetailsView.h */,
+				20E293141B3EE837009DEC80 /* NDAMeetingDetailsView.m */,
+				20CA3F451B3EF8FE00CDED92 /* NDAMeetingPlaceView.h */,
+				20CA3F461B3EF8FE00CDED92 /* NDAMeetingPlaceView.m */,
+				2047BADB1B5117DE002D8155 /* NDAMeetingUserStatusView.h */,
+				2047BADC1B5117DE002D8155 /* NDAMeetingUserStatusView.m */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		20E031B11B48079800E04C5A /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				20E031BB1B4808FC00E04C5A /* NDAWalkthroughViewController.h */,
+				20E031BC1B4808FC00E04C5A /* NDAWalkthroughViewController.m */,
+				20E031B21B4807A400E04C5A /* NDAOnboardingContentViewController.h */,
+				20E031B31B4807A400E04C5A /* NDAOnboardingContentViewController.m */,
+				20E031B41B4807A400E04C5A /* NDAOnboardingViewController.h */,
+				20E031B51B4807A400E04C5A /* NDAOnboardingViewController.m */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		20F2300B1B463B9800A1D5DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2075C5421BE189ED0047FCC3 /* PFUser+NDAHelpers.h */,
+				2075C5431BE189ED0047FCC3 /* PFUser+NDAHelpers.m */,
+				20295F661BFA79C6004EF948 /* CLLocation+NDAHelpers.h */,
+				20295F671BFA79C6004EF948 /* CLLocation+NDAHelpers.m */,
+				20D52DF11BE1728200F4F52B /* AYAppStore.h */,
+				20D52DF21BE1728200F4F52B /* AYAppStore.m */,
+				20BC60111BBED7050010310D /* AYFeedback.h */,
+				20BC60121BBED7050010310D /* AYFeedback.m */,
+				20B060111BB30E0E006FBC65 /* UIView+AYUtils.h */,
+				20B060121BB30E0E006FBC65 /* UIView+AYUtils.m */,
+				20F2300C1B463BA000A1D5DE /* NDAConstants.h */,
+				20F2300D1B463BA000A1D5DE /* NDAConstants.m */,
+				20ADE0751BDC2F3600116396 /* NSString+NDAHelpers.h */,
+				20ADE0761BDC2F3600116396 /* NSString+NDAHelpers.m */,
+				20E9B6721B578E9D00D3BD7B /* UIWindow+NDAHelpers.h */,
+				20E9B6731B578E9D00D3BD7B /* UIWindow+NDAHelpers.m */,
+				20F2300E1B463BA000A1D5DE /* NDAMacros.h */,
+				20E031B81B4807E300E04C5A /* UILabel+NDAHelpers.h */,
+				20E031B91B4807E300E04C5A /* UILabel+NDAHelpers.m */,
+				20F230111B463BA000A1D5DE /* UIColor+NDAHelpers.h */,
+				20F230121B463BA000A1D5DE /* UIColor+NDAHelpers.m */,
+				20F230131B463BA000A1D5DE /* UIColor+NDATints.h */,
+				20F230141B463BA000A1D5DE /* UIColor+NDATints.m */,
+				20F230151B463BA000A1D5DE /* UIFont+NDASizes.h */,
+				20F230161B463BA000A1D5DE /* UIFont+NDASizes.m */,
+				20F230171B463BA000A1D5DE /* UIImage+ImageEffects.h */,
+				20F230181B463BA000A1D5DE /* UIImage+ImageEffects.m */,
+				20F230191B463BA000A1D5DE /* UIImage+NDAHelpers.h */,
+				20F2301A1B463BA000A1D5DE /* UIImage+NDAHelpers.m */,
+				20F2301B1B463BA000A1D5DE /* UIImagePickerController+NDABugFix.h */,
+				20F2301C1B463BA000A1D5DE /* UIImagePickerController+NDABugFix.m */,
+				20719C0F1B4E9EDC00B2B526 /* NSDate+NDAHelpers.h */,
+				20719C101B4E9EDC00B2B526 /* NSDate+NDAHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		20FA24301B51A1FF00BBE771 /* JLPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				20FA24311B51A1FF00BBE771 /* JLLocationPermission.h */,
+				20FA24321B51A1FF00BBE771 /* JLLocationPermission.m */,
+				20FA24331B51A1FF00BBE771 /* JLNotificationPermission.h */,
+				20FA24341B51A1FF00BBE771 /* JLNotificationPermission.m */,
+				20FA24351B51A1FF00BBE771 /* JLPermissionsCore+Internal.h */,
+				20FA24361B51A1FF00BBE771 /* JLPermissionsCore.h */,
+				20FA24371B51A1FF00BBE771 /* JLPermissionsCore.m */,
+			);
+			path = JLPermissions;
+			sourceTree = "<group>";
+		};
+		489B9EAF70A9D31128B3881E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB266F2C0F9AF27B1BEE506 /* NeverDrinkAlone.app */,
+				20CC3BF11BE4466900172139 /* NeverDrinkAloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE123DDD6F0E28EB066C8C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20EC02401B4AB05900986D80 /* NDACircularGauge.h */,
+				20EC02411B4AB05900986D80 /* NDACircularGauge.m */,
+				20E2930D1B3EA9F2009DEC80 /* NDAProgressView.h */,
+				20E2930E1B3EA9F2009DEC80 /* NDAProgressView.m */,
+				20AAD8AE1B3550040060B6AF /* NDAIconButton.h */,
+				20AAD8AF1B3550040060B6AF /* NDAIconButton.m */,
+				203CF5741B3AAB09008ED52A /* NDALoadingImageView.h */,
+				203CF5751B3AAB09008ED52A /* NDALoadingImageView.m */,
+				2047BA9D1B4EF28C002D8155 /* NDAPreferencesObjectCell.h */,
+				2047BA9E1B4EF28C002D8155 /* NDAPreferencesObjectCell.m */,
+				20E9B66E1B578CBA00D3BD7B /* NDAAlertView.h */,
+				20E9B66F1B578CBA00D3BD7B /* NDAAlertView.m */,
+				2036B78C1B5A5C65002755DE /* NDAActionSheet.h */,
+				2036B78D1B5A5C65002755DE /* NDAActionSheet.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		794E3DD4BCD06846E5F62F00 = {
+			isa = PBXGroup;
+			children = (
+				C2E7F03EC3B6EE090997882E /* NeverDrinkAlone */,
+				20CC3BF21BE4466900172139 /* NeverDrinkAloneUITests */,
+				D813756E233F36AFE8920CF6 /* Frameworks */,
+				489B9EAF70A9D31128B3881E /* Products */,
+				85206A0CE4DEA56010A26C25 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		7C881547206F2D6E61B84164 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20CC680B1BE1794A00603560 /* NDAIncomingMessage.h */,
+				20CC680C1BE1794A00603560 /* NDAIncomingMessage.m */,
+				20CC680D1BE1794A00603560 /* NDAOutcomingMessage.h */,
+				20CC680E1BE1794A00603560 /* NDAOutcomingMessage.m */,
+				20DAE9131B32745B00E30C5D /* NDAInterest.h */,
+				20DAE9141B32745B00E30C5D /* NDAInterest.m */,
+				20AAD8A41B3457C20060B6AF /* NDAMeetingPlace.h */,
+				20AAD8A51B3457C20060B6AF /* NDAMeetingPlace.m */,
+				208571C31B36E2E9004B1AE3 /* NDATimeSlot.h */,
+				208571C41B36E2E9004B1AE3 /* NDATimeSlot.m */,
+				20EC02501B4C0D1700986D80 /* NDAMatch.h */,
+				20EC02511B4C0D1700986D80 /* NDAMatch.m */,
+				20E293101B3EE601009DEC80 /* NDAMeeting.h */,
+				20E293111B3EE601009DEC80 /* NDAMeeting.m */,
+				20013D0E1B32C69300813BA3 /* NDAPreferencesObjectsList.h */,
+				20013D0F1B32C69300813BA3 /* NDAPreferencesObjectsList.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85206A0CE4DEA56010A26C25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5240731103D9CEED055E7BF5 /* Pods-unit_tests.release.xcconfig */,
+				9D269E53C9903D1C375F1427 /* Pods-unit_tests.debug.xcconfig */,
+				20B4C2CC1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.debug.xcconfig */,
+				20B4C2CD1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2E7F03EC3B6EE090997882E /* NeverDrinkAlone */ = {
+			isa = PBXGroup;
+			children = (
+				7C881547206F2D6E61B84164 /* Models */,
+				5AE123DDD6F0E28EB066C8C0 /* Views */,
+				F645EBE79CDF114F7C9C4C1D /* Controllers */,
+				20AAD8A71B346E1B0060B6AF /* Managers */,
+				20F2300B1B463B9800A1D5DE /* Helpers */,
+				20CA3F4B1B429A6D00CDED92 /* Libraries */,
+				03DCBDCC365B1DAE01F60CD2 /* Resources */,
+				20AB014F207E6F6200BF4FBC /* Secrets.h */,
+			);
+			path = NeverDrinkAlone;
+			sourceTree = "<group>";
+		};
+		D180355FA010C9AAF16D444F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				811F6794679799AB56BAE49E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D813756E233F36AFE8920CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				204815531B47DE0000F0E3FA /* CoreText.framework */,
+				D180355FA010C9AAF16D444F /* iOS */,
+				2A6A99805F1A72BEA3430CB0 /* Pods_NeverDrinkAlone.framework */,
+				A7701B2F6B461DCD3FFE12B2 /* Pods_unit_tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F645EBE79CDF114F7C9C4C1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20FA242D1B518A9600BBE771 /* NDAAppDelegate.h */,
+				20FA242E1B518A9600BBE771 /* NDAAppDelegate.m */,
+				2008AE471BE31AC00012DC3F /* NDANavigationController.h */,
+				2008AE481BE31AC00012DC3F /* NDANavigationController.m */,
+				20E031B11B48079800E04C5A /* Walkthrough */,
+				20DBEB371B3E91E10046FB01 /* Authorization */,
+				20D49DF01B42C2E300DD7839 /* Permissions */,
+				2047BAB91B4EF2BC002D8155 /* Profile Configuration */,
+				20295F731BFA952F004EF948 /* Preferences */,
+				2012629C1B49664C00049DC8 /* Main */,
+				20DBEB621B3E99950046FB01 /* Meeting */,
+				20CC68081BE1792800603560 /* Chat */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F91D65C29C338C35CBFDAC86 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13C4D9D4FF6AF3D15D6EB274 /* Info.plist */,
+				682AEA1134F426E006C83D63 /* NeverDrinkAlone-Prefix.pch */,
+				0704055C1C9EDCAA703BB20B /* main.m */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20CC3BF01BE4466900172139 /* NeverDrinkAloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CC3BFA1BE4466900172139 /* Build configuration list for PBXNativeTarget "NeverDrinkAloneUITests" */;
+			buildPhases = (
+				20CC3BED1BE4466900172139 /* Sources */,
+				20CC3BEE1BE4466900172139 /* Frameworks */,
+				20CC3BEF1BE4466900172139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CC3BF71BE4466900172139 /* PBXTargetDependency */,
+			);
+			name = NeverDrinkAloneUITests;
+			productName = NeverDrinkAloneUITests;
+			productReference = 20CC3BF11BE4466900172139 /* NeverDrinkAloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8F5FFAFE11182322C80E47F9 /* NeverDrinkAlone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D56450A877C5E16B8D2D80 /* Build configuration list for PBXNativeTarget "NeverDrinkAlone" */;
+			buildPhases = (
+				89DC7B6655BF5AC4B48E9373 /* Check Pods Manifest.lock */,
+				45CB5E5D5FB87C354DC50DB5 /* Sources */,
+				47CEA4ABCC6B017494EF4B53 /* Frameworks */,
+				6E134570AED7810928BEB576 /* Resources */,
+				7FA9ADAD413016706E501414 /* Copy Pods Resources */,
+				20DBEB301B3B08490046FB01 /* Fabric */,
+				9858533EB7469EB99FFA3630 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverDrinkAlone;
+			productName = NeverDrinkAlone;
+			productReference = 3EB266F2C0F9AF27B1BEE506 /* NeverDrinkAlone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF7876D1E772AF82AA255E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NDA;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					20CC3BF01BE4466900172139 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8F5FFAFE11182322C80E47F9;
+					};
+					8F5FFAFE11182322C80E47F9 = {
+						DevelopmentTeam = X5764AN68D;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0B958D17D8D3C5768560C6AC /* Build configuration list for PBXProject "NeverDrinkAlone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = Russian;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+			);
+			mainGroup = 794E3DD4BCD06846E5F62F00;
+			productRefGroup = 489B9EAF70A9D31128B3881E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F5FFAFE11182322C80E47F9 /* NeverDrinkAlone */,
+				20CC3BF01BE4466900172139 /* NeverDrinkAloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CC3BEF1BE4466900172139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E134570AED7810928BEB576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2055EF0C1BDC41B100AC613F /* OpenSans-SemiboldItalic.ttf in Resources */,
+				2055EF071BDC41B100AC613F /* OpenSans-Italic.ttf in Resources */,
+				2055EF091BDC41B100AC613F /* OpenSans-LightItalic.ttf in Resources */,
+				2055EF0A1BDC41B100AC613F /* OpenSans-Regular.ttf in Resources */,
+				2055EF0B1BDC41B100AC613F /* OpenSans-Semibold.ttf in Resources */,
+				34DDD944741923EE0DAE052A /* Settings.bundle in Resources */,
+				2055EF081BDC41B100AC613F /* OpenSans-Light.ttf in Resources */,
+				20DAE9091B31223D00E30C5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20DBEB301B3B08490046FB01 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 337e6662c13dc165ee9a5114becf5ff652b87ff1 bd9cb4e47506f14d584ea3b5dcc675ed06838ee850d59f876f81ce0267adcefd";
+		};
+		7FA9ADAD413016706E501414 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeverDrinkAlone/Pods-NeverDrinkAlone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DC7B6655BF5AC4B48E9373 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9858533EB7469EB99FFA3630 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeverDrinkAlone/Pods-NeverDrinkAlone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CC3BED1BE4466900172139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CC3BF41BE4466900172139 /* NeverDrinkAloneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CB5E5D5FB87C354DC50DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208670271BE284120006B680 /* NDAChatsViewController.m in Sources */,
+				2047BA9F1B4EF28C002D8155 /* NDAPreferencesObjectCell.m in Sources */,
+				202AF04E1BDC1B0800F1124C /* NDAMeetingGoalPopup.m in Sources */,
+				2047BADD1B5117DE002D8155 /* NDAMeetingUserStatusView.m in Sources */,
+				20CC680F1BE1794A00603560 /* NDAChatViewController.m in Sources */,
+				203CF5761B3AAB09008ED52A /* NDALoadingImageView.m in Sources */,
+				20F2301D1B463BA000A1D5DE /* NDAConstants.m in Sources */,
+				20E031B61B4807A400E04C5A /* NDAOnboardingContentViewController.m in Sources */,
+				20E9B6741B578E9D00D3BD7B /* UIWindow+NDAHelpers.m in Sources */,
+				20BC60131BBED7050010310D /* AYFeedback.m in Sources */,
+				20CC68111BE1794A00603560 /* NDAOutcomingMessage.m in Sources */,
+				2008AE491BE31AC00012DC3F /* NDANavigationController.m in Sources */,
+				20295F6B1BFA8583004EF948 /* NDASettingsMenuView.m in Sources */,
+				20FA24391B51A1FF00BBE771 /* JLNotificationPermission.m in Sources */,
+				20F230221B463BA000A1D5DE /* UIImage+ImageEffects.m in Sources */,
+				20CA3F471B3EF8FE00CDED92 /* NDAMeetingPlaceView.m in Sources */,
+				20AAD8B01B3550040060B6AF /* NDAIconButton.m in Sources */,
+				20CC68101BE1794A00603560 /* NDAIncomingMessage.m in Sources */,
+				20DAE9151B32745B00E30C5D /* NDAInterest.m in Sources */,
+				20D52DF31BE1728200F4F52B /* AYAppStore.m in Sources */,
+				20E031C01B491AD100E04C5A /* NDASignUpViewController.m in Sources */,
+				2047BAC41B4EF2BC002D8155 /* NDAPreferencesViewController.m in Sources */,
+				20E031BA1B4807E300E04C5A /* UILabel+NDAHelpers.m in Sources */,
+				2012629A1B4930DE00049DC8 /* NDALogInViewController.m in Sources */,
+				2036B78F1B5A5C65002755DE /* NDAActionSheet.m in Sources */,
+				20E031C31B492B6100E04C5A /* NDAEmailAuthorizationViewController.m in Sources */,
+				2047BAD41B4F7E09002D8155 /* DZNPhotoEditorViewController.m in Sources */,
+				20EC024F1B4C0B4500986D80 /* NDAMeetingManager.m in Sources */,
+				20F2301F1B463BA000A1D5DE /* UIColor+NDAHelpers.m in Sources */,
+				20295F711BFA8C34004EF948 /* NDASettingsViewButton.m in Sources */,
+				20EC02421B4AB05900986D80 /* NDACircularGauge.m in Sources */,
+				2047BAC81B4EF2D6002D8155 /* NDAPreferencesManager.m in Sources */,
+				20D49DF71B43AC7B00DD7839 /* NDAPermissionsViewController.m in Sources */,
+				20295F681BFA79C6004EF948 /* CLLocation+NDAHelpers.m in Sources */,
+				2036B7881B5A5A01002755DE /* JTProgressHUD.m in Sources */,
+				20272BE81BDB37AE00EB81C0 /* NDACountdownCard.m in Sources */,
+				2047BACC1B4F7E02002D8155 /* DAKeyboardControl.m in Sources */,
+				20EC02521B4C0D1700986D80 /* NDAMatch.m in Sources */,
+				2047BABE1B4EF2BC002D8155 /* NDAWeekdayPickerCell.m in Sources */,
+				20FA243A1B51A1FF00BBE771 /* JLPermissionsCore.m in Sources */,
+				2047BAC51B4EF2BC002D8155 /* NDASecondProfileConfigurationViewController.m in Sources */,
+				2047BAC31B4EF2BC002D8155 /* NDASearchablePreferencesViewController.m in Sources */,
+				20F230201B463BA000A1D5DE /* UIColor+NDATints.m in Sources */,
+				2047BABF1B4EF2BC002D8155 /* NDAInterestsViewController.m in Sources */,
+				2047BAD51B4F7E09002D8155 /* DZNPhotoPickerControllerConstants.m in Sources */,
+				2047BAC01B4EF2BC002D8155 /* NDAInterestCell.m in Sources */,
+				20E293121B3EE601009DEC80 /* NDAMeeting.m in Sources */,
+				20E031B71B4807A400E04C5A /* NDAOnboardingViewController.m in Sources */,
+				2047BAC21B4EF2BC002D8155 /* NDAMeetingPlaceCell.m in Sources */,
+				2029DED01B5BE21C0046787F /* NDAAlertManager.m in Sources */,
+				20295F761BFABCF6004EF948 /* NDAEditBiographyViewController.m in Sources */,
+				2063F0D41B4A9B7200C6CD5F /* NDASettingsViewController.m in Sources */,
+				2075C5441BE189ED0047FCC3 /* PFUser+NDAHelpers.m in Sources */,
+				20272BE51BDB346100EB81C0 /* NDAKarmaCard.m in Sources */,
+				20B060131BB30E0E006FBC65 /* UIView+AYUtils.m in Sources */,
+				20AAD8A61B3457C20060B6AF /* NDAMeetingPlace.m in Sources */,
+				20295F6E1BFA858B004EF948 /* NDASettingsMenuViewCell.m in Sources */,
+				20E9B6711B578CBA00D3BD7B /* NDAAlertView.m in Sources */,
+				20AAD8AA1B346E2E0060B6AF /* NDALocationManager.m in Sources */,
+				20DBEB681B3E9C310046FB01 /* NDAMeetingUserInfoView.m in Sources */,
+				203683A41B52A832001FD420 /* NDAFirstProfileConfigurationViewController.m in Sources */,
+				20E293151B3EE837009DEC80 /* NDAMeetingDetailsView.m in Sources */,
+				2047BABC1B4EF2BC002D8155 /* NDAFreeTimesViewController.m in Sources */,
+				20E2930F1B3EA9F2009DEC80 /* NDAProgressView.m in Sources */,
+				20F230211B463BA000A1D5DE /* UIFont+NDASizes.m in Sources */,
+				2047BAC11B4EF2BC002D8155 /* NDAMeetingPlacesViewController.m in Sources */,
+				2047BAA21B4EF29F002D8155 /* NDAAuthorizationViewController.m in Sources */,
+				2012629F1B49666700049DC8 /* NDADashboardViewController.m in Sources */,
+				20013D101B32C69300813BA3 /* NDAPreferencesObjectsList.m in Sources */,
+				20272BEB1BDB3A8C00EB81C0 /* NDAMeetingCard.m in Sources */,
+				208571C51B36E2E9004B1AE3 /* NDATimeSlot.m in Sources */,
+				20F230241B463BA000A1D5DE /* UIImagePickerController+NDABugFix.m in Sources */,
+				20DBEB651B3E9B430046FB01 /* NDAMeetingViewController.m in Sources */,
+				2047BAD61B4F7E09002D8155 /* UIImagePickerController+Edit.m in Sources */,
+				20E031BD1B4808FC00E04C5A /* NDAWalkthroughViewController.m in Sources */,
+				2086702A1BE29F1D0006B680 /* NDAChatsViewCell.m in Sources */,
+				20FA24381B51A1FF00BBE771 /* JLLocationPermission.m in Sources */,
+				20ADE0771BDC2F3600116396 /* NSString+NDAHelpers.m in Sources */,
+				2047BABD1B4EF2BC002D8155 /* NDATimeSlotCell.m in Sources */,
+				C964A1D065F3C4D396B9A617 /* main.m in Sources */,
+				20FA242F1B518A9600BBE771 /* NDAAppDelegate.m in Sources */,
+				20719C111B4E9EDC00B2B526 /* NSDate+NDAHelpers.m in Sources */,
+				20F230231B463BA000A1D5DE /* UIImage+NDAHelpers.m in Sources */,
+				2055EF101BDC4B6A00AC613F /* CRGradientNavigationBar.m in Sources */,
+				2063F0D11B4A9AE600C6CD5F /* NDAMainPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20CC3BF71BE4466900172139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F5FFAFE11182322C80E47F9 /* NeverDrinkAlone */;
+			targetProxy = 20CC3BF61BE4466900172139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20CC3BF81BE4466900172139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NeverDrinkAloneUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.NeverDrinkAloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeverDrinkAlone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		20CC3BF91BE4466900172139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NeverDrinkAloneUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.NeverDrinkAloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeverDrinkAlone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		5D3DC1F8F145D0E03A1D15AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		877FB49BF71B4FDF5B8FCA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B4C2CC1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeverDrinkAlone/Resources/Other-Sources/NeverDrinkAlone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "NeverDrinkAlone/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/NeverDrinkAlone",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.NeverDrinkAlone;
+				PRODUCT_NAME = NeverDrinkAlone;
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A83AE20176EAEFFC4DF79CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3F650EC73C7F98E720A598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B4C2CD1BBECC1300BFEF5B /* Pods-NeverDrinkAlone.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeverDrinkAlone/Resources/Other-Sources/NeverDrinkAlone-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "NeverDrinkAlone/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/NeverDrinkAlone",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.NeverDrinkAlone;
+				PRODUCT_NAME = NeverDrinkAlone;
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B958D17D8D3C5768560C6AC /* Build configuration list for PBXProject "NeverDrinkAlone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3DC1F8F145D0E03A1D15AB /* Debug */,
+				A83AE20176EAEFFC4DF79CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CC3BFA1BE4466900172139 /* Build configuration list for PBXNativeTarget "NeverDrinkAloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CC3BF81BE4466900172139 /* Debug */,
+				20CC3BF91BE4466900172139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D56450A877C5E16B8D2D80 /* Build configuration list for PBXNativeTarget "NeverDrinkAlone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F650EC73C7F98E720A598A /* Release */,
+				877FB49BF71B4FDF5B8FCA81 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF7876D1E772AF82AA255E8 /* Project object */;
+}

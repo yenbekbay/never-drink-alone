@@ -1,0 +1,59 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'NeverDrinkAlone' do
+    pod 'ActionSheetPicker-3.0', '~> 2.0'
+    pod 'AMPopTip', '~> 0.9'
+    pod 'Analytics/Segmentio', '~> 2.0'
+    pod 'BBBadgeBarButtonItem', '~> 1.2'
+    pod 'CNPPopupController', '~> 0.3'
+    pod 'CocoaLumberjack', '~> 2.2'
+    pod 'Crashlytics', '~> 3.4'
+    pod 'CRToast', '~> 0.0'
+    pod 'DBPrivacyHelper', '~> 0.6.3'
+    pod 'DeviceUtil', '1.2.2'
+    pod 'DZNEmptyDataSet', '~> 1.7'
+    pod 'Fabric', '~> 1.6'
+    pod 'FBSDKCoreKit', '~> 4.8'
+    pod 'Firebase', '~> 2.4'
+    pod 'Foursquare-API-v2', '~> 1.4'
+    pod 'FSOpenInInstagram', '~> 1.0'
+    pod 'FSQCollectionViewAlignedLayout', '~> 1.1'
+    pod 'JSQMessagesViewController', '~> 7.2'
+    pod 'JTSImageViewController', '~> 1.5'
+    pod 'JVFloatLabeledTextField', '~> 1.1'
+    pod 'LMGeocoder', '~> 1.0'
+    pod 'MZFormSheetPresentationController', '~> 2.1'
+    pod 'Parse', '~> 1.9'
+    pod 'ParseFacebookUtilsV4', '~> 1.9'
+    pod 'PFLinkedInUtils', '~> 0.1'
+    pod 'pop', '~> 1.0'
+    pod 'ReactiveCocoa', '~> 4.0-alpha'
+    pod 'RNCryptor', '~> 3.0'
+    pod 'SDWebImage', '~> 3.7'
+    pod 'UITextField+Shake', '~> 1.1'
+end
+
+#target :unit_tests, :exclusive => true do
+#  link_with 'NeverDrinkAloneTests'
+#  pod 'Specta'
+#  pod 'Expecta'
+#  pod 'OCMock'
+#  pod 'OHHTTPStubs'
+#end
+
+post_install do | installer |
+  require 'fileutils'
+
+  pods_acknowledgements_path = 'Pods/Target Support Files/Pods/Pods-Acknowledgements.plist'
+  settings_bundle_path = Dir.glob("**/*Settings.bundle*").first
+
+  if File.file?(pods_acknowledgements_path)
+    puts 'Copying acknowledgements to Settings.bundle'
+    FileUtils.cp_r(pods_acknowledgements_path, "#{settings_bundle_path}/Acknowledgements.plist", :remove_destination => true)
+  end
+end

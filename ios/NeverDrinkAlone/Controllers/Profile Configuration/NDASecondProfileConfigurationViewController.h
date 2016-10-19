@@ -1,0 +1,3 @@
+@interface NDASecondProfileConfigurationViewController : UIViewController
+
+@end

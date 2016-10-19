@@ -1,0 +1,3 @@
+@interface NDAIconButton : UIButton
+
+@end

@@ -1,0 +1,180 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.3)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMPopTip (0.9.13)
+  - Analytics/Core-iOS (2.0.17):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (2.0.17):
+    - Analytics/Core-iOS
+  - BBBadgeBarButtonItem (1.2)
+  - Bolts (1.5.0):
+    - Bolts/AppLinks (= 1.5.0)
+    - Bolts/Tasks (= 1.5.0)
+  - Bolts/AppLinks (1.5.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.0)
+  - CNPPopupController (0.3.1)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.4.1):
+    - Fabric (~> 1.6.0)
+  - CRToast (0.0.9)
+  - DBPrivacyHelper (0.6.3)
+  - DeviceUtil (1.2.2)
+  - DZNEmptyDataSet (1.7.2)
+  - Fabric (1.6.1)
+  - FBSDKCoreKit (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.8.0)
+    - FBSDKCoreKit/no-arc (= 4.8.0)
+  - FBSDKCoreKit/arc (4.8.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.8.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.8.0):
+    - FBSDKCoreKit
+  - Firebase (2.4.3)
+  - Foursquare-API-v2 (1.4.8)
+  - FSOpenInInstagram (1.0)
+  - FSQCollectionViewAlignedLayout (1.1.1)
+  - IOSLinkedInAPI (2.0.0):
+    - AFNetworking (>= 2.0.0)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - JTSImageViewController (1.5.1)
+  - JVFloatLabeledTextField (1.1.0)
+  - LMGeocoder (1.0.4)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.1.3):
+    - MZAppearance
+  - Parse (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+  - ParseFacebookUtilsV4 (1.9.1):
+    - Bolts/Tasks (>= 1.5)
+    - FBSDKCoreKit (~> 4.8)
+    - FBSDKLoginKit (~> 4.8)
+    - Parse (~> 1.9)
+  - PFLinkedInUtils (0.1.8):
+    - IOSLinkedInAPI (~> 2.0)
+    - Parse (~> 1.8)
+  - pop (1.0.8)
+  - ReactiveCocoa (4.0.4-alpha-1):
+    - ReactiveCocoa/UI (= 4.0.4-alpha-1)
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/Core (4.0.4-alpha-1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/no-arc (4.0.4-alpha-1):
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/UI (4.0.4-alpha-1):
+    - ReactiveCocoa/Core
+    - Result (~> 0.6-beta.1)
+  - Result (0.6.0-beta.6)
+  - RNCryptor (3.0.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+  - UITextField+Shake (1.1.2)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.0)
+  - AMPopTip (~> 0.9)
+  - Analytics/Segmentio (~> 2.0)
+  - BBBadgeBarButtonItem (~> 1.2)
+  - CNPPopupController (~> 0.3)
+  - CocoaLumberjack (~> 2.2)
+  - Crashlytics (~> 3.4)
+  - CRToast (~> 0.0)
+  - DBPrivacyHelper (~> 0.6.3)
+  - DeviceUtil (= 1.2.2)
+  - DZNEmptyDataSet (~> 1.7)
+  - Fabric (~> 1.6)
+  - FBSDKCoreKit (~> 4.8)
+  - Firebase (~> 2.4)
+  - Foursquare-API-v2 (~> 1.4)
+  - FSOpenInInstagram (~> 1.0)
+  - FSQCollectionViewAlignedLayout (~> 1.1)
+  - JSQMessagesViewController (~> 7.2)
+  - JTSImageViewController (~> 1.5)
+  - JVFloatLabeledTextField (~> 1.1)
+  - LMGeocoder (~> 1.0)
+  - MZFormSheetPresentationController (~> 2.1)
+  - Parse (~> 1.9)
+  - ParseFacebookUtilsV4 (~> 1.9)
+  - PFLinkedInUtils (~> 0.1)
+  - pop (~> 1.0)
+  - ReactiveCocoa (~> 4.0-alpha)
+  - RNCryptor (~> 3.0)
+  - SDWebImage (~> 3.7)
+  - UITextField+Shake (~> 1.1)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 11f2053085d3088dc1ef9d38a9f11c18b528dd9e
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AMPopTip: 17c0fc2bffc9d81314228073f63ea0320f204b11
+  Analytics: 51d6163cb568c8ede69f2b92ef4779d91e1524e2
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  Crashlytics: 41574a245bc6ae10c55d57f385ebd2004e5bee05
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  DBPrivacyHelper: c1e033776454dd3e16e8dcedf2e92d4d0a5e56df
+  DeviceUtil: 6781344f19a7684796d3b2684a9cab5b285ebb3a
+  DZNEmptyDataSet: 0ec00bfc230d7450997b60c127afdd0b9f24f3b6
+  Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
+  FBSDKCoreKit: 66a935d17b6e00b6b64e604f2eb9b72c9ab7deb8
+  FBSDKLoginKit: d893fcbb98d854496925e9ff73c67b896982d3c4
+  Firebase: 48179995b561e2262c5d4060ecdffca45fbbff8b
+  Foursquare-API-v2: dedba546a2048dc66dc444e9784fc5f9c27f81d9
+  FSOpenInInstagram: 5c3a0721f4f3b1529c1b4768e11c579e5e61bef2
+  FSQCollectionViewAlignedLayout: 122006b230bf5635ae159f1ad1eaa9b5ef11391e
+  IOSLinkedInAPI: d0adc664472d471b0df9b2aad92a2d82de926c40
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
+  LMGeocoder: a0f635f948b0ca420d8d338e54886744cdcb215d
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: 66048b553cb2002901298f66a443eac1d2743524
+  Parse: 90b2544822200f84b18bfacc4e8b0a3a6c3584a2
+  ParseFacebookUtilsV4: eab9b4ade12f0800b4d30f6b808bca55ce17a0e9
+  PFLinkedInUtils: fd9f1bd34223e4531abe5ff15d37e22a7390efef
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  ReactiveCocoa: 618a2fc13d4ed80e380aa6fa56547cef43c7341d
+  Result: dc390d0b58f9ec43fcd536f1ebdd130803cc6cbc
+  RNCryptor: 761fc3ed94d1a0e409ba5b8e5dbef6a8f69352a7
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+  UITextField+Shake: 47cc0429dafb3da580686339ad2da091249a8ea2
+
+COCOAPODS: 0.39.0
